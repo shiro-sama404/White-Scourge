@@ -53,26 +53,32 @@ public class PlayerController : MonoBehaviour
     }
 
     System.Collections.IEnumerator Dash()
-    {
-        isDashing = true;
-        canDash = false;
-        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), 0).normalized * dashSpeed;
-        yield return new WaitForSeconds(dashDuration);
-        isDashing = false;
-        rb.velocity = Vector2.zero;
-        yield return new WaitForSeconds(dashCooldown);
-        canDash = true;
-    }
+{
+    isDashing = true;
+    canDash = false;
+    
+    float originalGravity = rb.gravityScale;
+    rb.gravityScale = 0;
+    Vector2 dashDirection = new Vector2(Input.GetAxisRaw("Horizontal"), 0).normalized;
+
+    rb.velocity = dashDirection * dashSpeed;
+    yield return new WaitForSeconds(dashDuration);
+
+    isDashing = false;
+    rb.gravityScale = originalGravity;
+    yield return new WaitForSeconds(dashCooldown);
+    
+    canDash = true;
+}
 
     void HandleJump()
+{
+    if (Input.GetKeyDown(KeyCode.Space) && jumpsRemaining > 0)
     {
-        if (Input.GetKeyDown(KeyCode.Space) && jumpsRemaining > 0)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, 0);
-            rb.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
-            jumpsRemaining--;
-        }
+        rb.velocity = new Vector2(rb.velocity.x, Mathf.Sqrt(2 * 9.8f * 2));
+        jumpsRemaining--;
     }
+}
 
     void HandleClimb()
     {

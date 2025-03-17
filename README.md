@@ -15,7 +15,7 @@ Vencer os chefões e puzzles durante a jornada para concluir o jogo.
   
    - Direcional: A, W, S, D
 	- Ataque: Mouse E
-	- Habilidade: Mouse D
+	- Habilidade: E
 	- Dash: Shift
 	- Pulo: Espaço
 	- Menu: ESC
