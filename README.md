@@ -1,11 +1,16 @@
 # White Scourge 🎮
 
-White Scourge é um jogo plataforma com puzzles em que o jogador enfrenta desafios e chefões para chegar a um dos três possíveis finais.
+Engine: Unity \
+Software de arte: Aseprite \
+Gênero: Metroidvania \
+Temática: China medieval (Dinastia Song)
+
+White Scourge é um jogo plataforma metroidvania em que o jogador, um acólito guerreiro, enfrenta inimigos a fim de curar o flagelo branco que assola o condado de Yongjia, provocando um dentre dois possíveis finais.
 
 
 ## *Objetivo do Jogo*
 
-Vencer os chefões e puzzles durante a jornada para concluir o jogo.
+Vencer os chefes e tomar (ou não) escolhas durante a jornada para curar o flagelo e concluir o jogo.
 
 ---
 
@@ -23,15 +28,25 @@ Vencer os chefões e puzzles durante a jornada para concluir o jogo.
 
 
 2. *Objetivo Principal*:  
-   Superar os seguintes chefes:
-	- Lavrador
-	- Grande Ladrão
-	- Soldado
-	- Cavaleiro
+   Enfrentar e vencer, na ordem apresentada, os seguintes chefes:
+	- Líder Ladrão
+	- Suserano
 	- 9 caudas
 
 ---
 
-Engine: Unity \
-Software de arte padrão: Aseprite \
-Temática: China medieval (Dinastia Song)
+## *Considerações*
+
+Este projeto foi desenvolvido exclusivamente para a Game Jam da seletiva do LEDES Games 2025. O código e os recursos estão sujeitos às regras do edital da seletiva.
+
+---
+
+## Equipe (Grupo 5)
+
+| Colaborador        | Função                   |
+|--------------------|--------------------------|
+| Arthur Barbosa     | Game Designer e Artista  | 
+| Eduardo Maia       | Programador              | 
+| Tuanny Cristine    | Programadora             | 
+
+
