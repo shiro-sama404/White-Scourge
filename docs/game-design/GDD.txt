@@ -2,8 +2,8 @@ Nome: White Scourge
 Engine: Unity
 Software de arte padrão: Aseprite
 Temática: China medieval (Dinastia Song)
-Inspirações principais: Dead Cells, Bind of Isaac, Hades, Undertale
-Gênero principal: Metroidvania
+Inspirações principais: Hollow Knight, Dead Cells, Bind of Isaac, Hades, Undertale
+Gênero: Metroidvania
 
 - Level design:
 	- Decidibilidade (2 rotas) 
@@ -11,25 +11,22 @@ Gênero principal: Metroidvania
 	- Run overview: A run consistirá de 2 mapas e 1 sala do boss final
 		- Cada mapa é composto por 5 super tiles
 		- Ao fim do mapa há uma luta com mini chefe
-		- Após luta com mini boss o jogador entrará em plano astral
-		- O plano astral será uma fase de percurso
-		- Após 3 fases o jogador seguirá para a sala do boss final
+		- Após 2 fases o jogador seguirá para a sala do boss final
 	- Upgrades:
 		- Melhoria de atributos padrão por créditos (moedas do jogo obtidas ao derrotar inimigos)
-		- Novas habilidades obtidas ao derrotar mini chefes
+		- Novas habilidades obtidas ao derrotar mini chefes (dragon dive e word of flames)
 
 Atributos do personagem:
-Vida (padrão 4 máscaras)
-Ataque
-Vel Ataque
-Vel de movimento
-Vel de habilidade
-Vel de Dash
-Carregamento de habilidade (Decidir tipo de carregamento)
-Distância de habilidade
-Distância de dash
-Qtd pulos
-Sorte (influencia qualidade dos upgrades do deus dragão)
+	Vida (padrão 4 máscaras)
+	Ataque
+	Vel Ataque
+	Vel de movimento
+	Vel de habilidade
+	Vel de Dash
+	Carregamento de habilidade
+	Distância de habilidade
+	Distância de dash
+	Qtd pulos
 
 Mecânicas:
 	- Movimentação 4 direcional
@@ -48,7 +45,7 @@ Controles:
 	- Dash: Shift
 	- Pulo: Espaço
 	- Menu: ESC
-	- Mapa: Tab (Se houver)
+	- Mapa de fase: Tab (Se houver)
 
 Inimigos:
 	- Lavrador
@@ -83,8 +80,7 @@ Mapa 3: Pátios do Castelo (final boss battle)
 História:
 	O dragão Zhu Long, dragão das chamas, percebe uma ausência prolongada de fogo na região de Yongjia, uma região agrícula produtora de arroz. Curioso, ele envia seu acólito guerreiro, o jogador, que é chamado no jogo apenas por “acólito”, para investigar a região.
 	De início o acólito se depara com uma região próspera e em ascensão econômica, mas com pessoas vazias, sorridentes e incomunicáveis. Quanto mais fundo na região o acólito adentra, mais notável se torna o efeito do feitiço de charme que deixa suas vítimas em transe.
-	Sua investigação o torna alvo de lavradores locais e o leva até o líder de uma gangue de saqueadores, cujo semblante parecia menos afetado que qualquer outra pessoa até então, mas ainda o induzido a enfrentar o acólito.
-Podemos exorcizá-lo e tirar informações do flagelo ou atordoá-lo e seguir caminho até o centro do surto. O ritual de exorcismo purifica a alma da vítima e lhe dá alguns minutos de lucidez antes de desmaiar por um dia inteiro.
+	Sua investigação o torna alvo de lavradores locais e o leva até o líder de uma gangue de saqueadores, cujo semblante parecia menos afetado que qualquer outra pessoa até então, mas ainda o induzido a enfrentar o acólito. Finalizada a luta podemos exorcizá-lo e tirar informações do flagelo ou seguir caminho até o centro do surto. O ritual de exorcismo purifica a alma da vítima e lhe dá alguns minutos de lucidez antes de desmaiar por um dia inteiro.
 	Aproximando-se da cidade é possível ver os portões selados e as muralhas fortemente defendidas, forçando o acólito a atravessá-la por meios não convencionais. Dentro da muralha os soldados sofrem do charme com maior intensidade e isso transparece em seus corpos antropomorfos.
 	Ao atravessar a muralha somos barrados por um forte cavaleiro da nobreza local, este que, após uma intensa batalha, derrotamos e descobrimos ser o suserano local. Caso tenhamos obtido informações do flagelo com o líder ladrão podemos impedí-lo de se tentar um ataque suicída com explosivos em uma última arrancada.
 	Novamente temos uma escolha, exorcizá-lo ou atordoá-lo. Na primeira opção somos informados de que sua esposa é a 9 caudas e está sendo controlada para usar seus poderes de charme em toda a região.
